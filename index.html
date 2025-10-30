@@ -1,0 +1,188 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coastline — Men's Jackets</title>
+  <meta name="description" content="Coastline - Luxury Men's Jackets for Every Season. Order now on WhatsApp."/>
+  <!-- Tailwind via CDN for quick deploy (no build required) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Small custom tweaks */
+    :root { --gold: #D1A83A; --deep: #0b0b0b; }
+    .gold { color: var(--gold); }
+    .bg-deep { background-color: var(--deep); }
+    /* make scrollbar subtle */
+    ::-webkit-scrollbar { height: 8px; width: 8px; }
+    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 8px; }
+  </style>
+</head>
+<body class="bg-deep text-gray-100 antialiased">
+
+  <header class="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="w-12 h-12 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center shadow-lg">
+        <span class="font-bold text-black">C</span>
+      </div>
+      <div>
+        <div class="text-xl font-bold tracking-wide">Coastline</div>
+        <div class="text-xs text-gray-400">Premium Men's Jackets</div>
+      </div>
+    </div>
+
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="#products" class="hover:underline">Products</a>
+      <a href="#offers" class="hover:underline">Offers</a>
+      <a href="#reviews" class="hover:underline">Reviews</a>
+      <a id="order-desktop" href="https://wa.me/8801701093713?text=Hi%20Coastline!%20I%20want%20to%20order." target="_blank" class="px-4 py-2 rounded-full bg-yellow-400 text-black font-semibold shadow">Order Now</a>
+    </nav>
+
+    <div class="md:hidden">
+      <a id="order-mobile" href="https://wa.me/8801701093713?text=Hi%20Coastline!%20I%20want%20to%20order." target="_blank" class="px-4 py-2 rounded-full bg-yellow-400 text-black font-semibold shadow text-sm">Order</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-8 py-12">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Coastline</h1>
+      <div class="text-yellow-400 text-2xl font-semibold mt-2">Luxury Men's Jackets for Every Season</div>
+      <p class="mt-6 text-gray-300 max-w-lg">Handpicked fabrics, premium finishing and modern silhouettes — built for everyday style. Limited stocks. Order now and get fast delivery across Bangladesh.</p>
+
+      <div class="mt-8 flex gap-4">
+        <a href="https://wa.me/8801701093713?text=Hi%20Coastline!%20I%20want%20to%20order." target="_blank" class="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-yellow-400 text-black font-semibold shadow-lg">Order Now
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+        <a href="#products" class="px-6 py-3 border border-gray-700 rounded-full text-sm">Browse Products</a>
+      </div>
+
+      <div class="mt-8 flex flex-wrap gap-4 text-sm text-gray-400">
+        <div class="bg-gray-900 px-3 py-2 rounded">Free delivery over ৳2,000</div>
+        <div class="bg-gray-900 px-3 py-2 rounded">30 days easy returns</div>
+        <div class="bg-gray-900 px-3 py-2 rounded">Secure checkout</div>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-center">
+      <div class="w-full max-w-md rounded-2xl overflow-hidden shadow-2xl border border-gray-800">
+        <img src="https://images.unsplash.com/photo-1520975918246-9d9d0d1621f6?auto=format&fit=crop&w=900&q=60" alt="Main Jacket" class="w-full h-96 object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="max-w-5xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-6">Featured Men's Jackets</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=60" alt="Jacket 1" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <div class="flex items-center justify-between">
+            <h3 class="font-semibold">Corduroy Winter Jacket</h3>
+            <div class="text-yellow-400 font-bold">৳2,700</div>
+          </div>
+          <p class="mt-3 text-sm text-gray-400">Warm, stylish and perfect for winters. Heavy-duty stitching and soft lining.</p>
+          <div class="mt-4 flex gap-3">
+            <a href="https://wa.me/8801701093713?text=Hi%20Coastline!%20I%20want%20Corduroy%20Winter%20Jacket." target="_blank" class="flex-1 text-center px-4 py-2 rounded-full bg-yellow-400 text-black font-semibold">Order Now</a>
+            <button class="px-4 py-2 border border-gray-700 rounded-full text-sm details-btn" data-desc="Corduroy Winter Jacket — Warm and stylish. Available in sizes M,L,XL.">Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=50" alt="Jacket 2" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <div class="flex items-center justify-between">
+            <h3 class="font-semibold">Classic Bomber Jacket</h3>
+            <div class="text-yellow-400 font-bold">৳2,500</div>
+          </div>
+          <p class="mt-3 text-sm text-gray-400">Lightweight bomber with premium zipper and padded lining.</p>
+          <div class="mt-4 flex gap-3">
+            <a href="https://wa.me/8801701093713?text=Hi%20Coastline!%20I%20want%20Classic%20Bomber%20Jacket." target="_blank" class="flex-1 text-center px-4 py-2 rounded-full bg-yellow-400 text-black font-semibold">Order Now</a>
+            <button class="px-4 py-2 border border-gray-700 rounded-full text-sm details-btn" data-desc="Classic Bomber Jacket — Lightweight and casual. Sizes M,L,XL.">Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=40" alt="Jacket 3" class="w-full h-64 object-cover">
+        <div class="p-4">
+          <div class="flex items-center justify-between">
+            <h3 class="font-semibold">Tailored Urban Jacket</h3>
+            <div class="text-yellow-400 font-bold">৳3,200</div>
+          </div>
+          <p class="mt-3 text-sm text-gray-400">Slim-fit tailored jacket for urban looks. Breathable fabric.</p>
+          <div class="mt-4 flex gap-3">
+            <a href="https://wa.me/8801701093713?text=Hi%20Coastline!%20I%20want%20Tailored%20Urban%20Jacket." target="_blank" class="flex-1 text-center px-4 py-2 rounded-full bg-yellow-400 text-black font-semibold">Order Now</a>
+            <button class="px-4 py-2 border border-gray-700 rounded-full text-sm details-btn" data-desc="Tailored Urban Jacket — Slim-fit, stylish. Sizes M,L,XL.">Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFERS -->
+  <section id="offers" class="max-w-5xl mx-auto px-6 py-12">
+    <div class="bg-gradient-to-r from-yellow-400/10 via-transparent to-yellow-400/10 p-6 rounded-xl border border-gray-800">
+      <div class="flex flex-col md:flex-row items-center gap-6">
+        <div class="flex-1">
+          <h3 class="text-xl font-bold">Limited Time Offer</h3>
+          <p class="mt-2 text-gray-300">Get 15% off on your first order. Use code <span class="font-semibold text-yellow-400">COAST15</span></p>
+        </div>
+        <div>
+          <a href="https://wa.me/8801701093713?text=Hi%20Coastline!%20I%20want%20to%20claim%20the%20COAST15%20offer." target="_blank" class="px-5 py-3 rounded-full bg-yellow-400 text-black font-semibold">Claim Offer</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="max-w-5xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-6">What customers say</h2>
+    <div class="relative">
+      <div id="reviews-container" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <blockquote class="bg-gray-900 p-4 rounded-xl border border-gray-800">
+          <p class="text-gray-300">“Amazing jacket quality — fits perfectly and the stitching is top-notch.”</p>
+          <div class="mt-3 text-sm text-gray-400">— Arif, Dhaka</div>
+        </blockquote>
+
+        <blockquote class="bg-gray-900 p-4 rounded-xl border border-gray-800">
+          <p class="text-gray-300">“Fast delivery and great customer service. Will order again.”</p>
+          <div class="mt-3 text-sm text-gray-400">— Nadia, Chittagong</div>
+        </blockquote>
+
+        <blockquote class="bg-gray-900 p-4 rounded-xl border border-gray-800">
+          <p class="text-gray-300">“Love the fabric. Looks premium for the price.”</p>
+          <div class="mt-3 text-sm text-gray-400">— Rafi, Sylhet</div>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="max-w-5xl mx-auto px-6 py-12">
+    <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-t border-gray-800 pt-6">
+      <div>
+        <div class="text-lg font-bold">Coastline</div>
+        <div class="text-sm text-gray-400 mt-1">Premium men's jackets • Dhaka, Bangladesh</div>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="https://wa.me/8801701093713?text=Hi%20Coastline!%20I%20want%20to%20order." target="_blank" class="px-4 py-2 rounded-full bg-yellow-400 text-black font-semibold">Order on WhatsApp</a>
+        <div class="text-sm text-gray-400">Follow us on</div>
+        <div class="flex items-center gap-3">
+          <a href="#" class="text-gray-400 hover:text-white">Instagram</a>
+          <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+          <a href="#" class="text-gray-400 hover:text-white">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-6 text-xs text-gray-600">© 2025 Coastline. All rights reserved.</div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
