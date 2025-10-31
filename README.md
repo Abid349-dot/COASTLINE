@@ -1,7 +1,7 @@
 
 # Coastline - GitHub Pages Ready Static Site
 
-This is a single-page static landing page for **Coastline** (Men's Jackets), ready to upload to GitHub Pages.
+This is a single-page static landing page for **Coastline** , ready to upload to GitHub Pages.
 It uses Tailwind via CDN so there's no build step required. Just upload the files to the `main` branch root of a public repository.
 
 ## How to deploy
